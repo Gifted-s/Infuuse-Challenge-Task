@@ -1,3 +1,3 @@
 ## Infuuse 
 
-### This repository contains the codebase the infuuse task challenge
+### This repository contains the codebase for the infuuse task challenge
