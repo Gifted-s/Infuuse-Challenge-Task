@@ -1,0 +1,6 @@
+[1123/215626.935:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1126/065110.891:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1126/143858.281:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1126/143858.655:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\ADEMOKOYA pc\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\fd54865f-920d-4e2c-ab0e-f101f9b3d389: The system cannot find the path specified. (0x3)
+[1128/225608.515:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1130/161430.214:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

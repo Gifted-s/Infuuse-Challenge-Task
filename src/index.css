@@ -1,0 +1,270 @@
+*{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size:15px;
+  /* font-family: 'Poppins', sans-serif; */
+}
+.dd{
+  margin-left:25px;
+  margin-top:20px;
+  margin-bottom: 20px;
+  font-weight:bold;
+}
+
+.dashboard{
+  padding:0 15px 0px 0 !important;
+}
+.add_data{
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+}
+.sidebar{
+  position: fixed;
+  width: 256px !important;
+  z-index: 2 !important;
+  height:102vh !important;
+  margin-top:-75px !important;
+}
+.dashboard_right{
+  margin-left:40px !important;
+}
+.center1{
+  flex-direction: column !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+.graphs{
+  padding-top:40px !important;
+  margin-top: 20px !important;
+  border-top: 1px solid rgba(0,0,0,0.1) !important;
+}
+.graphs h6{
+  font-size:14px !important;
+  font-weight: 500 !important;
+}
+.bg-sec{
+  background-color: rgba(242, 242, 242,0.4) !important;
+}
+.form_{
+  box-shadow: 0 0 1px rgba(0,0,0,.05);
+ border: solid 1px rgba(0,0,0,.05);
+ border-radius: 5px !important;
+ justify-content: center !important;
+ align-items: center !important;
+ display: flex !important;
+ flex-direction: column !important;
+}
+.form label {
+
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(0,0,0,0.8);
+}
+.form input{
+  border-color: #dee5e7;
+  border-radius: 2px;
+  width: 60%;
+  padding: 3px 10px !important;
+  font-size: 16px !important;
+  outline-color: rgb(39, 2, 175);
+  outline-width: 0.1em !important;
+  border: 1px solid rgba(0,0,0,0.1) !important;
+}
+.form select{
+  border-color: #dee5e7;
+  border-radius: 2px;
+  width: 60%;
+  padding: 3px 10px !important;
+  font-size: 16px !important;
+  outline-color: rgb(39, 2, 175);
+  outline-width: 0.1em !important;
+  border: 1px solid rgba(0,0,0,0.1) !important;
+}
+.each_input{
+  margin-top:19px !important;
+}
+.custom_btn{
+  background-color: rgb(58, 9, 235) !important;
+  border: none !important;
+  color:white !important;
+  font-weight:bold !important;
+  font-size:15px !important;
+  text-align: center !important;
+  width: 100% !important;
+  border-radius: 5px !important;
+  padding: 10px 10px !important;
+}
+.dashboard_cont{
+  box-shadow: 0 0 1px rgba(0,0,0,.05);
+  border: solid 1px rgba(0,0,0,.05);
+  border-radius: 5px !important;
+}
+.bg-pr{
+  background-color: rgb(42, 83, 248) !important;
+  color:white !important;
+}
+.goal_{
+  padding:20px 10px 10px 20px !important;
+  border-radius: 2px;;
+  margin-top:20px;
+  /* background-color: white !important;
+  border: 1px solid rgba(0,0,0,0.1); */
+}
+.goal_ h3{
+  color: white;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+}
+/* .goal_ .btn{
+  background-color: rgb(42, 83, 248)  !important;
+  color:white !important;
+  font-size: 13px !important;
+} */
+.auth input{
+  width:100% !important;
+}
+.auth{
+  padding: 0 30px !important
+}
+.auth .custom_btn{
+  width:170% !important;
+  background-color: rgb(46, 87, 211);
+}
+.auth input{
+  padding : 9px 10px !important;
+  border-radius: 4px;
+  outline-width: 0.01% !important;
+  outline-color: royalblue;
+}
+.auth_cont{
+  border-radius: 4px !important;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.a_m{
+   font-weight: 'bold';
+   margin-left: 20;
+    font-size: 18;
+  
+}
+.add_btn{
+  margin-top:15px;
+  justify-content: center !important;
+  align-items: center !important;
+  display:flex !important;
+  flex-direction: row !important;
+  margin-bottom: 30px !important;
+}
+.add_data_form{
+  margin-top:-40px !important;
+}
+.each_bar{
+  margin-top:50px !important;
+  margin-bottom: 60px !important;
+}
+input[type="file"]{
+  background-color: rgb(35, 77, 257) !important;
+  color:white !important;
+  width: 230px;
+  border-radius: 1px;
+  padding:6px;
+  font-weight:500 !important;
+}
+.card_cont{
+  padding:10px !important;
+  margin-bottom:20px;
+}
+.card_img{
+  width: 100% !important;
+ 
+}
+.card_body{
+  padding: 10px 20px;
+
+}
+.card_body h5{
+  font-weight: bold;
+  font-size:14px;
+}
+@media screen and (max-width: 768px){
+  h3.dd{
+    margin-left:23px !important;
+    font-size:19px;
+  }
+  .card_cont{
+    padding:60px !important;
+    margin-bottom:-20px;
+  }
+  .dd{
+    padding: 0 !important;
+    margin-left:-30px !important;
+  }
+  .user_{
+    margin-left:12px !important;
+  }
+  .goal_m{
+    padding:20px !important;
+  }
+  .goal_m .btn{
+    margin-top:20px !important;
+    margin-left: 7px !important;
+  }
+  .a_m{
+    margin-left:-20px !important;
+    align-items: center !important;
+    color:rgba(0,0,0,.6) !important;
+    flex-direction: row !important;
+    display: flex !important;
+    
+  }
+  .graphs{
+    justify-content: center !important;
+    width: 100% !important;
+    align-items: center !important;
+  }
+  .g_m{
+    margin-bottom: 50px !important;
+  }
+  .m_c{
+    margin-bottom: 20px;
+  }
+  .mb{
+    padding:0 !important;
+    margin-left: 0 !important;
+    width:100% !important;
+  }
+  .d_b{
+    margin-left: 0 !important;
+    padding: 0 !important
+  }
+  .dashboard{
+    padding-left:0 !important;
+  }
+  .each_input .col-md-4{
+    text-align: start !important;
+  }
+  .each_input input{
+    width: 100% !important;
+    padding: 10px 11px !important;
+    border-radius: 2px !important;
+  }
+  .sidebar{
+    margin-top:0px !important;
+  }
+  .nn{
+    padding: 20px 0 !important;
+  }
+  .menu_btn{
+    position: absolute !important;
+ 
+    padding: 6px 14px 25px 14px !important;
+    right:7px !important;
+    top:16px !important; 
+    z-index: 2 !important;
+    
+  }
+}
